@@ -24,7 +24,7 @@ class DustBin{
         rect(this.left.position.x, this.left.position.y, 20, 100);
         rect(this.right.position.x, this.right.position.y, 20, 100);
         imageMode(CENTER);
-        image(this.image, this.bottom.position.x, this.bottom.position.y - 50, this.width, this.height + 80);
+        image(this.image, this.bottom.position.x, this.bottom.position.y - 50, this.width + 20, this.height + 80);
 
 
     }
