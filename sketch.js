@@ -37,10 +37,10 @@ function draw() {
   background(200);
 
   Paper.display();
-
+  box.display(); 
   ground.display();
   
-  box.display(); 
+  
   
   drawSprites();
  
