@@ -36,7 +36,7 @@ function draw() {
   rectMode(CENTER);
   background(200);
 
-  ground.display():
+  ground.display();
 
   box.display();
   
