@@ -36,11 +36,11 @@ function draw() {
   rectMode(CENTER);
   background(200);
 
-  ground.display();
-
-  box.display();
-  
   Paper.display();
+
+  ground.display();
+  
+  box.display(); 
   
   drawSprites();
  
