@@ -20,12 +20,12 @@ function setup() {
 
 	//Create the Bodies Here.
 
-	ground = new Ground(400, 460, 800, 30);
-
 	Paper = new paper(100, 400, 50);
 
 	box = new DustBin(600, 450, 100, 20);
-
+	
+	ground = new Ground(400, 460, 800, 30);
+	
 	Engine.run(engine);
 
 	console.log(box);
